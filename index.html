@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Exam</title>
+</head>
+<body>
+    <div class="card bg-light">
+        <article class="card-body mx-auto" style="max-width: 400px;">
+            <h4 class="card-title mt-3 text-center">Create Account</h4>
+            <p class="text-center">Get started with your free account</p>
+            <p>
+                <a href="" class="btn btn-block btn-twitter"> <i class="fab fa-twitter"></i>   Login via Twitter</a>
+                <a href="" class="btn btn-block btn-facebook"> <i class="fab fa-facebook-f"></i>   Login via facebook</a>
+            </p>
+            <p class="divider-text">
+                <span class="bg-light"></span> OR</span>
+            </p>
+        <form>
+            
+            <div>
+                <label for="username"></label>
+                <i class="fas fa-user"></i>
+                <input type="text" name="Username" id="username" placeholder="Full name">
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="fas fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="email"></label>
+                <i class="fas fa-envelope"></i>
+                <input type="email" name="email" id="email" placeholder="Email address">
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="fas fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="phone"></label>
+                <i class="fas fa-phone"></i>
+                <input type="phonenumber" name="Phonenumber" id="phonenumber" placeholder="Phone number">
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="fas fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <div>
+                <select class="select job type">
+                <option selected="">select job type</option>
+                <option>Designer</option>
+                <option>Manager</option>
+                <option>Accaunting</option>
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="fas fa-check-circle success-icon"></i>
+                <div class="error"></div>
+                </select>
+            </div>
+            <div>
+                <label for="password"></label>
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" id="password" placeholder="Create password">
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="fas fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="password"></label>
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" id="password" placeholder="Repeat password">
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="fas fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <button type="create account">Create Account</button>
+        </form>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
